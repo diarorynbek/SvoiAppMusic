@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		8FC807E62B62B2070055F0AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC807E52B62B2070055F0AA /* AppDelegate.swift */; };
 		8FC807E82B62B2070055F0AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC807E72B62B2070055F0AA /* SceneDelegate.swift */; };
-		8FC807EA2B62B2070055F0AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC807E92B62B2070055F0AA /* ViewController.swift */; };
+		8FC807EA2B62B2070055F0AA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC807E92B62B2070055F0AA /* MainTabBarViewController.swift */; };
 		8FC807EF2B62B2080055F0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC807EE2B62B2080055F0AA /* Assets.xcassets */; };
 		8FC807F22B62B2080055F0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC807F02B62B2080055F0AA /* LaunchScreen.storyboard */; };
 		8FC807FB2B62CDFA0055F0AA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8FC807FA2B62CDFA0055F0AA /* SnapKit */; };
 		8FC807FD2B62CDFA0055F0AA /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8FC807FC2B62CDFA0055F0AA /* SnapKit-Dynamic */; };
+		8FC808042B638BEE0055F0AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC808032B638BEE0055F0AA /* HomeViewController.swift */; };
+		8FC808062B638BFE0055F0AA /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC808052B638BFE0055F0AA /* UpComingViewController.swift */; };
+		8FC808082B638C080055F0AA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC808072B638C080055F0AA /* SearchViewController.swift */; };
+		8FC8080A2B638C100055F0AA /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC808092B638C100055F0AA /* DownloadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8FC807E22B62B2070055F0AA /* SvoiAppMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvoiAppMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC807E52B62B2070055F0AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FC807E72B62B2070055F0AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FC807E92B62B2070055F0AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FC807E92B62B2070055F0AA /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		8FC807EE2B62B2080055F0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC807F12B62B2080055F0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC807F32B62B2080055F0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC808032B638BEE0055F0AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8FC808052B638BFE0055F0AA /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		8FC808072B638C080055F0AA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8FC808092B638C100055F0AA /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,26 @@
 		8FC807E42B62B2070055F0AA /* SvoiAppMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8FC808022B638BCF0055F0AA /* Controllers */,
 				8FC807E52B62B2070055F0AA /* AppDelegate.swift */,
 				8FC807E72B62B2070055F0AA /* SceneDelegate.swift */,
-				8FC807E92B62B2070055F0AA /* ViewController.swift */,
+				8FC807E92B62B2070055F0AA /* MainTabBarViewController.swift */,
 				8FC807EE2B62B2080055F0AA /* Assets.xcassets */,
 				8FC807F02B62B2080055F0AA /* LaunchScreen.storyboard */,
 				8FC807F32B62B2080055F0AA /* Info.plist */,
 			);
 			path = SvoiAppMusic;
+			sourceTree = "<group>";
+		};
+		8FC808022B638BCF0055F0AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FC808032B638BEE0055F0AA /* HomeViewController.swift */,
+				8FC808052B638BFE0055F0AA /* UpComingViewController.swift */,
+				8FC808072B638C080055F0AA /* SearchViewController.swift */,
+				8FC808092B638C100055F0AA /* DownloadViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC807EA2B62B2070055F0AA /* ViewController.swift in Sources */,
+				8FC808082B638C080055F0AA /* SearchViewController.swift in Sources */,
+				8FC807EA2B62B2070055F0AA /* MainTabBarViewController.swift in Sources */,
 				8FC807E62B62B2070055F0AA /* AppDelegate.swift in Sources */,
+				8FC8080A2B638C100055F0AA /* DownloadViewController.swift in Sources */,
+				8FC808062B638BFE0055F0AA /* UpComingViewController.swift in Sources */,
+				8FC808042B638BEE0055F0AA /* HomeViewController.swift in Sources */,
 				8FC807E82B62B2070055F0AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
