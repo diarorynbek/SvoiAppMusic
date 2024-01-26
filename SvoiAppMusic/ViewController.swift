@@ -5,22 +5,29 @@
 //  Created by Diar Orynbek on 25.01.2024.
 //
 
+import SnapKit
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    
+    // MARK: - UI
 
+    
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        
+        setupViews()
+        setupConstraits()
     }
-
     
-    func newfunc() {
-        //
+    // MARK: - Setup Views
+    func setupViews() {
+        view.backgroundColor = .white
     }
-
+    
+    // MARK: - Setup Constraints
+    func setupConstraits() {
+        
+    }
 }
-
